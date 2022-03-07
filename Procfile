@@ -1,1 +1,1 @@
-web: java -jar Blue0x.jar --server.port=$PORT
+web: java -jar Blue0x.jar
