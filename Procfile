@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar -Dserver.port=$PORT Blue0x.jar
+web: java -jar Blue0x.jar --server.port=$PORT
