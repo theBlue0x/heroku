@@ -1,1 +1,1 @@
-web: java -jar Blue0x.jar
+web: java -jar Blue0x.jar --nxt.apiServerPort=$PORT
