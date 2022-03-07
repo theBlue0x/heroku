@@ -1,0 +1,4 @@
+/localstorage
+/logging.properties
+/processes/
+!/processes/readme.txt

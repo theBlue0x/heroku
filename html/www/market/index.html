@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Blue0x Decentralized Marketplace">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
+    <title>Blue0x | MARKET</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>	
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  </head>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a>Blue0x|Market</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="https://blue0x.com" class="smoothScroll">Blue0x|HOME</a>
+			<a href="https://exchange.blue0x.com" class="smoothScroll">Blue0x|EXCHANGE</a>
+			<!--a href="https://explorer.blue0x.com" class="smoothScroll">Blue0x|EXPLORER</a-->
+			<a href="https://lite.blue0x.com" class="smoothScroll">Blue0x|LITE</a>
+			<a href="https://learn.blue0x.com" class="smoothScroll">Blue0x|LEARN</a>
+			<a href="https://discord.com/invite/EbBWRSPW63"><i class="fab fa-discord"></i></a>
+			<a href="https://t.me/blue0xcom"><i class="fab fa-telegram-plane"></i></a>
+			<a href="https://twitter.com/blue0x_com"><i class="fab fa-twitter"></i></a>
+			<a href="https://github.com/theBlue0x"><i class="fab fa-github"></i></a>
+		</div>
+		<div id="menuToggle"><i class="fas fa-bars"></i></div>
+	</nav>
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<img src="assets/img/logo.png" class="img-fluid" style="margin-bottom:-42px;">
+				<h1>BLUE0X|<span>MARKET</span></h1>
+				<h2>BLUE0X|<span>MARKET</span></h2>
+				<p style="color:white;margin-top:20px;margin-bottom:18px;line-height:22px;">Decentralized Global Marketplace</p>
+				<form action="#">
+				<select class="form-control m-bot15" name="market">
+					<option value="#">Select A Market...</option>
+					<option value="market/usdx/index.html">USDX - United States Dollar</option>
+					<option value="market/audx/index.html">AUDX - Australian Dollar</option>
+					<option value="market/cadx/index.html">CADX - Canadian Dollar</option>
+					<option value="market/chfx/index.html">CHFX - Swiss Franc</option>
+					<option value="market/cnyx/index.html">CNYX - Chinese Yuan</option>
+					<option value="market/eurx/index.html">EURX - Euro</option>
+					<option value="market/gbpx/index.html">GBPX - British Pound</option>
+					<option value="market/iqdx/index.html">IQDX - Iraqi Dinar</option>
+					<option value="market/irrx/index.html">IRRX - Iranian Rial</option>
+					<option value="market/jpyx/index.html">JPYX - Japanese Yen</option>
+					<option value="market/nzdx/index.html">NZDX - New Zealand Dollar</option>
+					<option value="market/rubx/index.html">RUBX - Russian Ruble</option>
+				</select>
+				<br/>
+				<input type="button" class="myButton" onclick="window.open(this.form.market.options[this.form.market.selectedIndex].value,'_top')" value="Continue">
+				</form>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
