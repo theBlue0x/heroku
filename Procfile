@@ -1,1 +1,1 @@
-web: sed -i "s/2022/$PORT/g" conf/nxt.properties && sed -i "s/localhost:2022/0.0.0.0:$PORT/g" html/www/exchange/trade/js/constants.js && sed -i "s/localhost:2022/0.0.0.0:$PORT/g" html/www/market/market/js/constants.js && java -jar Blue0x.jar 
+web: sed -i "s/2022/$PORT/g" conf/nxt.properties && sed -i "s/http://localhost:2022/https://0.0.0.0:$PORT/g" html/www/exchange/trade/js/constants.js && sed -i "s/http://localhost:2022/https://0.0.0.0:$PORT/g" html/www/market/market/js/constants.js && java -jar Blue0x.jar 
