@@ -3,6 +3,11 @@
   "description": "Blue0x Node",
   "repository": "https://github.com/theBlue0x/heroku",
   "logo": "https://i.imgur.com/t9iVewj.png",
+  "buildpacks": [
+    {
+      "url": "heroku/jvm"
+    }
+  ]
   "website": "https://blue0x.com/",
   "keywords": ["Blue0x", "java", "heroku", "blockchain", "cryptocurrency"]
 }
