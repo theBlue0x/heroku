@@ -1,8 +1,8 @@
 {
-  "name": "Blue0x Wallet",
-  "description": "Blue0x Wallet",
+  "name": "Blue0x Node",
+  "description": "Blue0x Node",
   "repository": "https://github.com/theBlue0x/heroku",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://blue0x.com/assets/img/logo.png",
   "website": "https://blue0x.com/",
-  "keywords": ["Blue0x", "Wallet", "java", "heroku", "blockchain", "cryptocurrency"]
+  "keywords": ["Blue0x", "java", "heroku", "blockchain", "cryptocurrency"]
 }
