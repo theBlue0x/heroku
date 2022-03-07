@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -java Blue0x.jar
