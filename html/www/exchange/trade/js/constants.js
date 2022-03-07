@@ -24,8 +24,7 @@ var Constants = (function(Constants, $, undefined) {
 
   Constants.RUBXId = '12430766146857977959';
 
-  Constants.apiUrl = 'https://localhost:2022/nxt';
-
+Constants.apiUrl = 'https://api2.blue0x.com/nxt';
   return Constants;
 
 } (Constants || {}, jQuery));
