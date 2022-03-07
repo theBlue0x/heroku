@@ -1,1 +1,1 @@
-web: java -jar Blue0x.jar 
+web: sed -i "s/2022/$PORT/g" conf/nxt.properties && cat conf/nxt.properties|grep "nxt.apiServerPort" && java -jar Blue0x.jar 
