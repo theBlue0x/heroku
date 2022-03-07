@@ -1,3 +1,3 @@
-2022-03-03 20:27:52 jdbc[3]: exception
+2022-03-07 13:29:15 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VERSION" not found; SQL statement:
 SELECT next_update FROM version [42102-200]
