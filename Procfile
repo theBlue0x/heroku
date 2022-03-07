@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -java Blue0x.jar
+web: java $JAVA_OPTS -jar Blue0x.jar
