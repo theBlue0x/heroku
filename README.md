@@ -1,6 +1,4 @@
-## The Blue0x Official Wallet
-
-
+## The Blue0x Heroku Repo
 ![GitHub last commit](https://img.shields.io/github/last-commit/theBlue0x/heroku?color=success)  ![GitHub repo size](https://img.shields.io/github/repo-size/theBlue0x/heroku?color=success)  [![Discord](https://img.shields.io/discord/823558528212008961?logo=discord)](https://discord.gg/EbBWRSPW63)
 
 
@@ -10,7 +8,7 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)
 
-
+## Test Drive a Blue0x Node on Heroku:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/theBlue0x/heroku)
 
 ![Image description](https://i.imgur.com/IE7Zoi7.png)
